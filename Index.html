@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дачный сезон</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Дачный сезон</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">О нас</a></li>
+                    <li><a href="#products">Товары</a></li>
+                    <li><a href="#footer">Контакты</a></li>
+                    <li><a href="register.html">Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>
+                <span class="hero-line">Дачный</span>
+                <span class="hero-line">сезон</span>
+            </h2>            
+            <button class="cta-btn" onclick="redirectToRegister()">Покупайте сейчас</button>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="feature-container">
+            <div class="feature-item">
+                <div class="feature-gif">
+                    <img src="gifs/big-city-greens-bcg.gif" alt="Гифка 1">
+                </div>
+                <div class="feature-text">
+                    <h3>Добро пожаловать в Дачный сезон!</h3>
+                    <p>Мы — команда энтузиастов, которые верят, что каждое семечко таит в себе огромный потенциал.
+                      "Дачный сезон" предлагает качественные семена для вашего сада и огорода, которые помогут вырастить богатый урожай и прекрасные цветы.
+                       Мы тщательно отбираем сорта, тестируем продукцию и сотрудничаем с надежными поставщиками, чтобы каждый ваш сезон был плодотворным.
+                    </p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-gif">
+                    <img src="gifs/planting-linus-van-pelt.gif" alt="Гифка 2">
+                </div>
+                <div class="feature-text">
+                    <h3>Качество, проверенное временем</h3>
+                    <p>"Дачный сезон" — это более 10 лет опыта и доверия со стороны наших клиентов.
+                       Мы предлагаем только отборные семена, которые прошли тщательную проверку на всхожесть и устойчивость.
+                       Наша миссия — поддерживать ваше увлечение садоводством и огородничеством, предоставляя семена, которые действительно работают.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-gif">
+                    <img src="gifs/big-city-greens-big-city-greens-the-movie.gif" alt="Гифка 3">
+                </div>
+                <div class="feature-text">
+                    <h3>Мы растем вместе с вами</h3>
+                    <p>Наш магазин "Дачный сезон" — это не просто место для покупки семян.
+                       Это сообщество людей, увлеченных природой, выращиванием растений и созданием красоты вокруг себя.
+                       Мы гордимся тем, что помогаем как опытным дачникам, так и новичкам найти идеальные семена для своих идей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Популярные товары</h2>
+            <p class="products-description">
+                Каждый пакетик семян — это начало вашего маленького чуда.
+                Мы уверены: с нами ваш сад зацветет, а урожай будет радовать вас и ваших близких.
+                От овощей и зелени до цветов и декоративных растений — у нас есть все, чтобы ваш сад стал настоящим произведением искусства.
+                Присоединяйтесь к нам, и давайте растить будущее вместе!
+            </p>
+            <div class = "container-cards" onclick="redirectToRegister()">
+                <div class="product-card">
+                    <img src="images/pumpkin.png" alt="Product Image" class="default-img"> 
+                    <img src="gifs/pumpkin.gif" alt="Product Image on Hover" class="hover-img"> 
+                    <div class="text">
+                        <p class="default-text">Тыква Сластёна</p> 
+                        <p class="hover-text">Скороспелый сорт столового назначения, плодоносит через 85-95 дней от всходов.
+                                              Растения плетистые. Плоды округлые, сегментированные, массой 1,5-6,5 кг.</p> 
+                    </div>
+                </div>            
+                <div class="product-card">
+                    <img src="images/imbir.png" alt="Product Image" class="default-img">
+                    <img src="gifs/squeeze-juicy.gif" alt="Product Image on Hover" class="hover-img"> 
+                    <div class="text">
+                        <p class="default-text">Тайский имбирь</p> 
+                        <p class="hover-text">Тайский имбирь — это галангал, многолетнее травянистое растение семейства Имбирные.
+                                              По вкусу, и внешне галангала напоминает имбирный. </p> 
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/tomato (1).jpg" alt="Product Image" class="default-img" style="width: 260px; height: 64%;margin-top: 10px;" > 
+                    <img src="gifs/pomidor.gif" alt="Product Image on Hover" class="hover-img">
+                    <div class="text">
+                        <p class="default-text">Большая мамочка</p>
+                        <p class="hover-text">Большая мамочка - ранний детерминантный низкорослый сорт томатов. 
+                                              Плоды сердцевидные, крупные, красного цвета, достигают 220-340 г.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/orange.png" alt="Product Image" class="default-img">
+                    <img src="gifs/Ripe-Oranges-on-the-Tree-03-2.gif" alt="Product Image on Hover" class="hover-img">
+                    <div class="text">
+                        <p class="default-text">Вашингтон-Навелл</p> 
+                        <p class="hover-text">Раннеспелый сорт шарообразными плодами с оранжево-жёлтой шероховатой кожурой толщиной от 4 до 6 мм и оранжевой сочной мякотью. </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Kalina.jpg" alt="Product Image" class="default-img" style="width: 260px; height: 64%;margin-top: 10px;">
+                    <img src="gifs/2berr.gif" alt="Product Image on Hover" class="hover-img">
+                
+                    <div class="text">
+                        <p class="default-text">Ред перл</p> <br>
+                        <p class="hover-text" >Самоплодный сорт голландской селекции.
+                                              Вырастает до 40 см. Цветёт обильно в начале июня белыми с едва заметным розовым отливом цветками.</p> 
+                    </div>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content" id="footer">
+                
+                <div class="footer-section contacts">
+                    <h3>Контакты</h3>
+                    <p><strong>Адрес:</strong> ул. Садовая, 15, г. Москва</p>
+                    <p><strong>Телефон:</strong> +7 (900) 123-45-67</p>
+                    <p><strong>Email:</strong> info@dachniysezon.ru</p>
+                </div>
+    
+                <div class="footer-section social">
+                    <h3>Мы в соцсетях</h3>
+                    <a href="https://t.me" target="_blank">Telegram</a>
+                    <a href="https://vk.com" target="_blank">ВКонтакте</a>
+                    <a href="https://ok.ru " target="_blank">Одноклассники</a>
+                </div>
+    
+                
+                <div class="footer-section map">
+                    <h3>Наше местоположение</h3>
+                    
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.403972080962!2d37.61556031584082!3d55.75222098055361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414abcc55c6e3b67%3A0x36e7e878e8eb3c1d!2z0JzQsNC90YHRgtCw0L0g0L_RgC4g0KHQsNC0LXRgNGB0LjQvNC40YDQvtCz0L4!5e0!3m2!1sru!2sru!4v1700000000000!5m2!1sru!2sru" 
+                        width="100%" 
+                        height="200" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <p>&copy; 2024 Дачный сезон. Все права защищены.</p>
+        </div>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
